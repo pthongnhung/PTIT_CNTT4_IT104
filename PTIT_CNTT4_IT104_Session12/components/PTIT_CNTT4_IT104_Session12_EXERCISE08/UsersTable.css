@@ -1,0 +1,86 @@
+
+.card {
+    background: #fff;
+    border: 1px solid #e6eaf0;
+    border-radius: 10px;
+    padding: 0;
+    overflow: hidden;
+    max-width: 960px;
+    margin: 24px auto;
+  
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    font-size: 14px;
+    color: #111827;
+}
+
+/* Header */
+.thead-row {
+    background: #f5f7fb;
+    color: #6b7280;
+    text-align: left;
+}
+
+th,
+td {
+    padding: 16px 20px;
+    border-bottom: 1px solid #eef2f7;
+}
+
+th:nth-child(1),
+td:nth-child(1) {
+    width: 60px;
+    text-align: center;
+}
+
+th:nth-child(6),
+td:nth-child(6) {
+    width: 160px;
+}
+
+/* Body rows */
+.tbody-row:hover {
+    background: #fafbfd;
+}
+
+.center {
+    text-align: center;
+}
+
+/* Buttons */
+.actions {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+}
+
+.btn {
+    border: 1px solid transparent;
+    padding: 6px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.btn--light {
+    background: #f8fafc;
+    color: #374151;
+    border-color: #e5e7eb;
+}
+
+.btn--danger {
+    background: #ef4444;
+    color: #fff;
+}
+
+.btn--light:hover {
+    background: #eef2f7;
+}
+
+.btn--danger:hover {
+    background: #dc2626;
+}

@@ -1,0 +1,72 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.user-layout {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header và Navbar */
+.header {
+    height: 60px;
+    background: #cfd7e1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    height: 40px;
+    background: #8a94a5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Content layout */
+.content {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 180px 1fr 200px;
+    gap: 8px;
+}
+
+/* Menu */
+.menu {
+    background: green;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main {
+    background: #fff0f0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    padding: 12px;
+}
+
+.cart {
+    background: white;
+    border: 1px solid #ddd;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.article {
+    background: #87cefa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
