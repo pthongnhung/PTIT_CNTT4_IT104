@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(255, 153, 0);
+    padding: 10px;
+}
+
+.container .head {
+    display: flex;
+    gap: 15px;
+}
+
+.container p p {
+    color: red;
+}
+
+.container p {
+    display: flex;
+}
+
+.user-cart {
+    position: absolute;
+    display: none;
+    top: 45px;
+    right: 50px;
+    background-color: rgb(53, 53, 53);
+    width: 375px;
+    min-height: 400px;
+    padding: 15px;
+    padding-bottom: 50px;
+}
+
+.user-cart h1 {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.show {
+    display: block;
+}
+
+.user-cart .card {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.user-cart .card img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.total {
+    position: absolute;
+    bottom: 20px;
+    width: 92%;
+}
+
+.total div {
+    margin-top: 10px;
+}
