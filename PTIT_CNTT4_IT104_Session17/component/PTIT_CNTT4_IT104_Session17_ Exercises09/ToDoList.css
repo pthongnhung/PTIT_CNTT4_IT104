@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: white;
+    width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container h2 {
+    margin: 10px;
+}
+
+.container .input-line {
+    display: flex;
+    gap: 10px;
+    margin: 15px;
+}
+
+.container .input-line input {
+    height: 28px;
+    width: 450px;
+    padding: 10px;
+}
+
+.container .input-line button {
+    background-color: royalblue;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    width: 100px;
+    height: 28px;
+}
+
+.container .task-container {
+    width: 560px;
+    font-size: 19px;
+}
+
+.container .task-container .task {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+
+.container .task-container .task .button-container {
+    display: flex;
+    gap: 8px;
+}
+
+.container .task-container .task .button-container button {
+    border-radius: 3px;
+    width: 45px;
+    height: 20px;
+    color: white;
+    border: none;
+}
+
+.container .task-container .task .button-container .fix {
+    background-color: darkgreen;
+}
+
+.container .task-container .task .button-container .delete {
+    background-color: orangered;
+}
+
+.container .task-container .task .task-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    gap: 10px;
+}
