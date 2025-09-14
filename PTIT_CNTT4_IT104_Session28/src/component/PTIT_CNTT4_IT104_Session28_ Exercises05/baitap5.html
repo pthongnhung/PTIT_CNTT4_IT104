@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function checkCondition(condition,callback) {
+            setTimeout(()=>{
+                callback(condition)
+            },1000)
+        }
+        function printValue(value) {
+            console.log(`dieu kien la ${value}`);  
+        }
+        checkCondition(true,printValue);
+        checkCondition(false,printValue)
+    </script>
+</body>
+</html>

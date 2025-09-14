@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myMap Example</title>
+</head>
+
+<body>
+    <script>
+        function myMap(arr, callback) {
+            const result = [];
+            for (let i = 0; i < arr.length; i++) {
+                result.push(callback(arr[i], i, arr));
+            }
+            return result;
+        }
+
+        function doubleValue(value) {
+            return value * 2;
+        }
+
+        const numbers = [1, 2, 3, 4, 5, 6];
+        const newArr = myMap(numbers, doubleValue);
+
+        console.log(newArr);
+    </script>
+</body>
+
+</html>
