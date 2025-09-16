@@ -1,0 +1,91 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "product_name": "Iphpne10",
+      "image": "https://via.placeholder.com/150",
+      "price": 45000,
+      "quantity": 10,
+      "created_at": "2025-09-01"
+    },
+    {
+      "id": 2,
+      "product_name": "Iphone11",
+      "image": "https://via.placeholder.com/150",
+      "price": 55000,
+      "quantity": 8,
+      "created_at": "2025-09-02"
+    },
+    {
+      "id": 3,
+      "product_name": "Iphone12",
+      "image": "https://via.placeholder.com/150",
+      "price": 40000,
+      "quantity": 12,
+      "created_at": "2025-09-03"
+    },
+    {
+      "id": 4,
+      "product_name": "Iphone13",
+      "image": "https://via.placeholder.com/150",
+      "price": 60000,
+      "quantity": 6,
+      "created_at": "2025-09-04"
+    },
+    {
+      "id": 5,
+      "product_name": "Iphone14",
+      "image": "https://via.placeholder.com/150",
+      "price": 48000,
+      "quantity": 9,
+      "created_at": "2025-09-05"
+    }
+  ],
+  "student": [
+    {
+      "id": 1,
+      "student_name": "hihi",
+      "email": "hihi@gmail.com",
+      "address": "Hà Nội",
+      "phone": "123456789",
+      "status": true,
+      "created_at": "2025-09-01"
+    },
+    {
+      "id": 2,
+      "student_name": "haha",
+      "email": "haha@gmail.com",
+      "address": "Hà Nội",
+      "phone": "123456789",
+      "status": true,
+      "created_at": "2025-09-01"
+    },
+    {
+      "id": 3,
+      "student_name": "hoho",
+      "email": "hoho@gmail.com",
+      "address": "Hà Nội",
+      "phone": "123456789",
+      "status": true,
+      "created_at": "2025-10-01"
+    },
+    {
+      "student_name": "hehe",
+      "email": "hehe@gmail.com",
+      "address": "Nam Định",
+      "phone": "123456789",
+      "create_at": "090909",
+      "status": true,
+      "id": 4
+    },
+    {
+      "student_name": "hehe",
+      "email": "hehe@gmail.com",
+      "address": "Nam Định",
+      "phone": "123456789",
+      "create_at": "090909",
+      "status": true,
+      "id": 5
+    }
+  ]
+}
