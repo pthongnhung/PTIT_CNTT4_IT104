@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "nhung",
+      "email": "nhung@gmail.com",
+      "age": 19,
+      "password": 123
+    },
+    {
+      "id": 2,
+      "name": "hong",
+      "email": "hong@gmail.com",
+      "age": 19,
+      "password": 789
+    },
+    {
+      "id": 3,
+      "name": "huyen",
+      "email": "huyen@gmail.com",
+      "password": 456,
+      "age": 20
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Quét nhà",
+      "status": false
+    },
+    {
+      "id": 2,
+      "title": "Giặt quần áo",
+      "status": false
+    },
+    {
+      "id": 3,
+      "title": "Nấu cơm",
+      "status": false
+    },
+    {
+      "id": 4,
+      "title": "Học bài",
+      "status": false
+    },
+    {
+      "id": 5,
+      "title": "Tưới cây",
+      "status": false
+    }
+  ]
+}
