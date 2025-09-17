@@ -1,0 +1,33 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Lập Trình Java Cơ Bản",
+      "image": "https://tse4.mm.bing.net/th/id/OIP.QQPB_WuuNVrZvZfyslShbAHaLH?pid=Api&P=0&h=180",
+      "date": "15/08/2023",
+      "status": true
+    },
+    {
+      "id": 2,
+      "title": "Học ReactJS Từ Zero Đến Chuyên Gia",
+      "image": "https://tse3.mm.bing.net/th/id/OIP.2TFXgj8HcHimfyR2snM37wAAAA?pid=Api&P=0&h=180",
+      "date": "01/05/2024",
+      "status": false
+    },
+    {
+      "id": 3,
+      "title": "Thuật Toán và Cấu Trúc Dữ Liệu",
+      "image": "https://tse4.mm.bing.net/th/id/OIP.rC7GCHhhEFkvLibyQnLcXAHaFa?pid=Api&P=0&h=180",
+      "date": "20/11/2022",
+      "status": true
+    },
+    {
+      "title": "iuuuuu anh",
+      "image": "https://tse4.mm.bing.net/th/id/OIP.G2sxNy50Y0PL3cGs4NKAaQHaE8?pid=Api&P=0&h=180",
+      "content": "heheheheh",
+      "date": "17/09/2025",
+      "status": true,
+      "id": 4
+    }
+  ]
+}
