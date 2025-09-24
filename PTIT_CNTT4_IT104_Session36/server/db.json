@@ -1,0 +1,22 @@
+{
+    "users":[
+        {
+            "id":1,
+            "name:":"Hong Nhung"
+        },
+        {
+            "id":2,
+            "name":"Nhung"
+        }
+    ],
+    "comments":[
+        {
+            "id":1,
+            "body":"some comment",
+            "postId":1
+        }
+    ],
+    "profile":{
+        "name":"typicode"
+    }
+}
